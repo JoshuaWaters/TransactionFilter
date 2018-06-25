@@ -1,5 +1,22 @@
 # Transaction Import Filter
-Current Version - 1.04
+Current Version - 1.03
+
+Version 1.03 changelog
+-----------------
+- Added automatic update check
+- Fixed category and subcategory being flipped for ING
+- Fixed account numbers being displayed in bank format
+
+INFORMATION
+=================
+This simple program formats the downloadable transaction csv file from a bank for import to a budget spreadsheet.
+The adjustments made are:
+- Only import transactions after a specific date
+- Find 'labels' in the description and apply a better description, category and subcategory
+- Find 'accounts' and replace the number with a more identifiable description
+- For labels with a description of '#' the matching entries will be deleted (useful for unnecessary internal transfers)
+- Split expenses and income and track the deleted entries
+- Format correctly for simple copy and paste into my budget spreadsheet
 
 SETUP
 =========================
