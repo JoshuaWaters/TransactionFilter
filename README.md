@@ -1,14 +1,14 @@
 # Transaction Import Filter
 Current Version - 1.03
 
-Version 1.03 changelog
------------------
+#### Version 1.03 changelog
+
 - Added automatic update check
 - Fixed category and subcategory being flipped for ING
 - Fixed account numbers being displayed in bank format
 
-INFORMATION
-=================
+## INFORMATION
+
 This simple program formats the downloadable transaction csv file from a bank for import to a budget spreadsheet.
 The adjustments made are:
 - Only import transactions after a specific date
@@ -18,16 +18,15 @@ The adjustments made are:
 - Split expenses and income and track the deleted entries
 - Format correctly for simple copy and paste into my budget spreadsheet
 
-SETUP
-=========================
+## SETUP
+
 
 1. Install the application. It will download MATLAB runtime files automatically if required.
 2. Ensure the packaged folder 'Transaction Filter' is located in C:\Users\*USERNAME*\Documents\
 3. Do not rename this folder or existing subfolders
 
 
-INSTRUCTIONS
-=========================
+## INSTRUCTIONS
 
 1. Download the required transaction files.
 BENDIGO - download the 'simple csv' (3 columns) for each account
@@ -45,8 +44,7 @@ ING - download the full csv containing all accounts
 NOTE: MATLAB tables are not user friendly for editting, so all editting is best performed in excel.
 The ability to edit in MATLAB was removed to avoid accidental errors. Ensure you refresh labels and accounts after editting.
 
-LABELS
-========================
+## LABELS
 
 1. Add a 'Search Term' for the program to look for in the description of each transaction
 2. Add a 'Description' that you want the program to apply to a matched transaction
