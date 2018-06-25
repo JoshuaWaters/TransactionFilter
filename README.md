@@ -36,4 +36,4 @@ LABELS
 	If this description is left blank, the existing description will kept
 	If this description is '#' (without apostrophes) the matched entries will be deleted
 
-Terms will be searched sequentially. Therefore, priority will be given to the heighest match in the labels list
+Terms will be searched sequentially. Therefore, priority will be given to the highest match in the labels list
