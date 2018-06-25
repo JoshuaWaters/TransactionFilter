@@ -1,5 +1,5 @@
 # Transaction Import Filter
-Version - 1.02
+Current Version - 1.02
 
 SETUP
 =========================
