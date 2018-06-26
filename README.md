@@ -1,7 +1,11 @@
 # Transaction Import Filter
-Current Version - 1.03
+Current Version - 1.04
 
-### Version 1.03 changelog
+### Version 1.04 Changelog
+
+- Added Data Scraping Tool
+
+### Version 1.03 Changelog
 
 - Added automatic update check
 - Fixed category and subcategory being flipped for ING
